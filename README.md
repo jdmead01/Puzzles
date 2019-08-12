@@ -1,32 +1,32 @@
-# Puzzles
-The following problems are just continuing practice on all the things we have learned so far.
+#Assignment: Human
 
-***Random  Array***
+Let's get our feet wet with some OOP practice in C#! Build a new .NET console project for this assignment. We will be revisiting your work here in a later assignment.
 
-Create a function called RandomArray() that returns an integer array
-
-* Place 10 random values between 5-25 into the array
-* Print the min and max values of the array
-* Print the sum of all values
-
-***Coin Flip***
-
-Create a function called TossCoin() that returns a string
-
-* Have the function print "Tossing a coin!"
-* Randomize a coin toss with a result signaling either side of the coin. 
-* Have the function print either "Heads" or "Tails"
-* Finally, return the result
-
-Create another function called TossMultipleCoins(int num) that returns a Double
-
-* Have the function call the tossCoin function multiple times based on num value
-* Have the function return a double that reflects the ratio of head toss to total toss
-
-***Names***
-
-Build a function Names that returns a list of strings. In this function:
-
-* Create a list with the values: Todd, Tiffany, Charlie, Geneva, Sydney
-* Shuffle the list and print the values in the new order
-* Return a list that only includes names longer than 5 characters
+Here's an example to get things started:
+```javascript
+class Human
+{
+    // Fields for Human
+    public string Name;
+    public int Strength;
+    public int Intelligence;
+    public int Dexterity;
+    private int health;
+     
+    // add a public "getter" property to access health
+     
+    // Add a constructor that takes a value to set Name, and set the remaining fields to default values
+     
+    // Add a constructor to assign custom values to all fields
+     
+    // Build Attack method
+    public int Attack(Human target)
+    {
+    }
+}
+```
+*   Create a Human class with four public fields: Name (string) , Strength (int), Intelligence (int), Dexterity (int)
+*   Add an additional private field for health (int), and a public property to access or "get" health
+*   Add a constructor method that takes a string to initialize Name - and that will initialize Strength, Intelligence, and Dexterity to a default value of 3, and health to default value of 100
+*   Let's create an additional constructor that accepts 5 parameters, so we can set custom values for every field.
+*   Now add a new method called Attack, which when invoked, should reduce the health of a Human object that is passed as a parameter. The damage done should be 5 * strength (5 points of damage to the attacked, for each 1 point of strength of the attacker). This method should return the remaining health of the target object.
