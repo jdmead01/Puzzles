@@ -9,7 +9,7 @@ Create a function called RandomArray() that returns an integer array
 * Print the min and max values of the array
 * Print the sum of all values
 
-*** Coin Flip ***
+***Coin Flip***
 
 Create a function called TossCoin() that returns a string
 
