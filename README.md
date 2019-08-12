@@ -2,6 +2,7 @@
 The following problems are just continuing practice on all the things we have learned so far.
 
 ***Random  Array***
+
 Create a function called RandomArray() that returns an integer array
 
 * Place 10 random values between 5-25 into the array
@@ -9,6 +10,7 @@ Create a function called RandomArray() that returns an integer array
 * Print the sum of all values
 
 *** Coin Flip ***
+
 Create a function called TossCoin() that returns a string
 
 * Have the function print "Tossing a coin!"
@@ -22,6 +24,7 @@ Create another function called TossMultipleCoins(int num) that returns a Double
 * Have the function return a double that reflects the ratio of head toss to total toss
 
 ***Names***
+
 Build a function Names that returns a list of strings. In this function:
 
 * Create a list with the values: Todd, Tiffany, Charlie, Geneva, Sydney
